@@ -23,7 +23,7 @@ cacheSolve <- function(x, ...)
 {
 inv<-x$getinv()
 if(!is.null(inv)){
-message("need cache data")
+message("get cache data")
 return(inv)
 }
 mat<-x$get()
